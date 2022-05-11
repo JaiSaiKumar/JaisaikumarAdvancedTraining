@@ -1,0 +1,84 @@
+/*#userlogin{
+    background-image: url("https://wallpaperaccess.com/full/767252.jpg");
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:750px;
+    width:50%;
+  
+    margin-left: 25%; 
+
+}
+#user{
+    margin-top:33%;
+    margin-left:20% ;
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+  .wrapper{
+    width: 500px;
+    padding: 2rem 0 1rem 0;
+    margin: 50px auto;
+    background: rgb(255, 255, 255);
+  
+    border-radius: 10px;
+  
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  }
+  
+#exampleInputEmail1,#exampleInputPassword1{
+  width: 85%;
+  outline: none;
+  border: 1px solid white;
+  background: #c8dbef;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  margin-left:30px;
+
+
+}
+
+  
+  h1 {
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  h4 {
+    text-align: center;
+  }
+  
+  form {
+    width: 300px;
+    margin-left: 80px;
+  }
+  
+  
+  
+  
+  button{
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    padding: 8px 0;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    width: 85%;
+    background: rgb(10, 8, 46);
+    color: #fff;
+    cursor: pointer;
+    margin-left: 22px;
+    margin-bottom: 30px;
+  }
+  button:hover{
+    background: rgb(213, 71, 71);
+  }
+  

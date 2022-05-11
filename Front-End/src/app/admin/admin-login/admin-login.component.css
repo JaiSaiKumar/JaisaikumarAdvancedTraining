@@ -1,0 +1,59 @@
+/*body{
+    background-image: url(https://st3.depositphotos.com/10654668/15621/i/1600/depositphotos_156218538-stock-photo-various-spices-in-spoons.jpg);
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper{
+  width: 400px;
+  padding: 2rem 0 1rem 0;
+  margin: 50px auto;
+  background: #fff;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+p{
+  margin-bottom: 1.7rem;
+}
+
+#username,#password{
+ 
+    width: 85%;
+    outline: none;
+    border: 1px solid white;
+    background: #c8dbef;
+    padding: 12px 14px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-left:30px;
+  
+}
+
+
+button{
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  padding: 8px 0;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  width: 85%;
+  background: rgb(7, 3, 43);
+  color: #fff;
+ 
+}
+button:hover{
+  background: tomato;
+}
+
+

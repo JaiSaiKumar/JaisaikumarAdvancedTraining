@@ -1,0 +1,41 @@
+<!--<div id="userlogin">
+
+  <div class="m-3 p-5 ">
+    <div id="user">
+      <form [formGroup]="userForm">
+        <h1 class=" my-3" style="color:rgb(42, 6, 248);">User Login</h1>
+        <div class="row">
+          <div class="form-group col-md-7">
+            <label for="exampleInputEmail1" style="color:rgb(0, 0, 0);">Email id</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              formControlName="email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email to anyone else.</small>
+          </div>
+          <div class="form-group col-md-7">
+            <label for="exampleInputPassword1" style="color:rgb(0, 0, 0);">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" formControlName="password">
+          </div>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-info" (click)="onUserLogIn()">Login</button>
+      </form><br><br>
+      <button type="submit" class="btn btn-success" (click)="onclk()">Create New Account</button>
+    </div>
+  </div>
+</div>-->
+
+<div class="wrapper" id ="back">
+  <h1>Hello Again!</h1>
+  <p>Welcome back you've <br> been missed!</p>
+  <form [formGroup]="userForm">
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email"
+    formControlName="email">
+    <input type="password" class="form-control" id="exampleInputPassword1" formControlName="password" placeholder="password">
+  
+  </form>
+  <button type="submit" class="btn btn-info" (click)="onUserLogIn()">Login</button>
+    <br><br>
+      <div class="not-member">
+    Not a member? <button type="submit" (click)="onclk()">Register</button>
+  </div>
+</div>
